@@ -53,6 +53,6 @@ public abstract class Vehicle {
     }
 
     public void setIsRunning(boolean running) {
-        isRunning = running;
+        this.isRunning = running;
     }
 }
