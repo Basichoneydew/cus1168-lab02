@@ -4,9 +4,6 @@ public class Tesla extends Vehicle implements Electric, Autonomous {
     private boolean autopilotEnabled;
     private boolean charging;
 
-    // TODO: Create constructor that takes model and year
-    // TODO: Set make to "Tesla"
-    // TODO: Initialize autopilotEnabled and charging to false
     public Tesla(String model, int year) {
         super("Tesla", model, year);
         this.autopilotEnabled = false;

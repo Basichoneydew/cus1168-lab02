@@ -6,7 +6,6 @@ public abstract class Vehicle {
     protected int year;
     protected boolean isRunning;
 
-    // TODO: Add constructor
     public Vehicle(String make, String model, int year) {
         this.make = make;
         this.model = model;
@@ -14,7 +13,6 @@ public abstract class Vehicle {
         this.isRunning = false;
     }
 
-    // TODO: Add abstract methods
     public abstract void startEngine();
 
     public abstract void stopEngine();
@@ -23,7 +21,6 @@ public abstract class Vehicle {
 
     public abstract void brake();
 
-    // TODO: Add getters and setters
     public String getMake() {
         return make;
     }
